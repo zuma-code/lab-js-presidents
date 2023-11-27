@@ -318,7 +318,9 @@ You are doing great! Let's move on to the bonus iterations. :rocket:
 
 <br>
 
-Before you start working on the bonus iterations, you will need to enable the tests for the bonus iterations. The tests are located in the file `tests/bonus.specs.js`. To do this, remove the `x` from the first  `xdescribe()` block, like this:
+Before you start working on the bonus iterations, you will need to enable the tests for the bonus iterations. You may have noticed that the test results for the bonus iterations are gray. This is because we disabled them intentionally to avoid overwhelming you with too many tests.
+
+The tests are located in the file `tests/bonus.specs.js`. To enable the tests, remove the `x` from the first  `xdescribe()` block, like this:
 
 **Before:**
 ```js
