@@ -136,36 +136,7 @@ Make sure to check the test output to verify that the function is working correc
 
 <br>
 
-### Iteration 2: Names and Party - `map()`
-
-We are continuing our practice with the `map()` method. This time, we want to create an array of objects with only the name and party of each president.
-
-Implement the function `getNamesAndParty()` that takes the **presidents array** as an argument. The function should **return a new array of objects**, where each object contains only the **name** and **party** of each president.
-
-The function must use the `map()` method to create the new array.
-
-<br>
-
-**Example:**
-
-```js
-console.log( getNamesAndParty(presidents) );
-```
-
-**Expected Output:**
-```js
-[
-  { name: "George Washington", party: "No Party" },
-  { name: "John Quincy Adams", party: "Federalist" },
-  { name: "Thomas Jefferson", party: "Democratic-Republican" },
-  // ...
-  // ...
-];
-```
-
-<br>
-
-### Iteration 3:  Democratic Presidents - `filter()`
+### Iteration 2:  Democratic Presidents - `filter()`
 
 Next up, we will practice using the `filter()` method.
 The `filter()` method creates a new array containing the elements for which the callback function returns `true`. In other words, the `filter()` method creates a new array containing only the elements that pass the test implemented by the callback function.
@@ -195,41 +166,11 @@ console.log( getDemocraticPresidents(presidents) );
 ];
 ```
 
-<br>
-
-### Iteration 4:  Affiliated Presidents - `filter()`
-
-Moving on to the next iteration, we will continue practicing with the `filter()` method.
-
-Implement the function `getAffiliatedPresidents()` that takes the **presidents array** as an argument. The function should use the `filter()` method to create a new filtered array containing only the **presidents who were affiliated with a political party** (those who **belong to some political party**). The function should then return the new filtered array.
-
-In other words the function should use the `filter()` method to filter out the presidents who were not affiliated with any political party.
-
-Hint: The presidents who were are not affiliated with any party have the `party` property set to `null`.
 
 
 <br>
 
-**Example:**
-
-```js
-console.log( getAffiliatedPresidents(presidents) );
-```
-
-**Expected Output:**
-```js
-[
-  { id: 2, name: "John Quincy Adams", /*  ...  */ party: "Federalist" },
-  { id: 3, name: "Thomas Jefferson", /*  ...  */ party: "Democratic-Republican" },
-  { id: 4, name: "James Madison", /*  ...  */ party: "Democratic-Republican" },
-  // ...
-  // ...
-];
-```
-
-<br>
-
-### Iteration 5: Count Years in Office - `reduce()`
+### Iteration 3: Count Years in Office - `reduce()`
 
 Next on our practice menu is the `reduce()` method.
 
@@ -258,28 +199,8 @@ console.log( countYearsInOffice(presidents) );
 
 <br>
 
-### Iteration 6: Count Republican Presidents - `reduce()`
 
-Implement the function `countRepublicanPresidents()` that takes the **presidents array** as an argument. The function should use the `reduce()` method to count the total number of presidents who belonged to the Republican party. The function should then return a number representing the number of Republican presidents.
-
-The presidents who belonged to the Republican party have the `party` property set to `"Republican"`.
-
-<br>
-
-**Example:**
-
-```js
-console.log( countRepublicanPresidents(presidents) );
-```
-
-**Expected Output:**
-```js
-19
-```
-
-<br>
-
-### Iteration 7:  Sort Presidents by Birth Year - `sort()`
+### Iteration 4:  Sort Presidents by Birth Year - `sort()`
 
 For the final few mandatory iterations, we will practice using the `sort()` method.
 
@@ -336,7 +257,7 @@ describe("BONUS", () => {
 
 <br>
 
-### Bonus: Iteration 8 | Age at Inauguration - `map()`
+### Bonus: Iteration 5 | Age at Inauguration - `map()`
 
 Implement the function `getAgeAtInauguration()` that takes the **presidents array** as an argument.
 The function should use the `map()` method to create a new array of updated president objects, with a new property `ageAtInauguration` containing the age of each president when they took office. The function should then return the new array containing the updated president objects, where each object contains the new property `ageAtInauguration`.
@@ -363,7 +284,7 @@ console.log( getAgeAtInauguration(presidents) );
 
 <br>
 
-### Bonus: Iteration 9 | Presidents Born After - `filter()`
+### Bonus: Iteration 6 | Presidents Born After - `filter()`
 
 Implement the function `getPresidentsBornAfter()` that takes two arguments: the **presidents array** and a **year**.
 The function should use the `filter()` method to create a new array containing only the **presidents who were born after the year provided as an argument**. The function should then return the new filtered array containing only the presidents who were born after the specified year.
@@ -388,7 +309,29 @@ console.log( getPresidentsBornAfter(presidents, 1945) );
 
 <br>
 
-### Bonus: Iteration 10 | Sort Presidents by Name - `sort()`
+
+### Iteration 7: Count Republican Presidents - `reduce()`
+
+Implement the function `countRepublicanPresidents()` that takes the **presidents array** as an argument. The function should use the `reduce()` method to count the total number of presidents who belonged to the Republican party. The function should then return a number representing the number of Republican presidents.
+
+The presidents who belonged to the Republican party have the `party` property set to `"Republican"`.
+
+<br>
+
+**Example:**
+
+```js
+console.log( countRepublicanPresidents(presidents) );
+```
+
+**Expected Output:**
+```js
+19
+```
+
+<br>
+
+### Bonus: Iteration 8 | Sort Presidents by Name - `sort()`
 
 Implement the function `sortPresidentsByName()` that takes the **presidents array** as an argument.
 The function should use the `sort()` method to **sort the presidents array alphabetically by name, in ascending order**. The function should then return the sorted array of presidents.
