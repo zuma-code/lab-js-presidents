@@ -1,5 +1,5 @@
-// Iteration 1 | getNames()
-describe("Function getNames()", () => {  
+// Iteration 1
+describe("Iteration 1 | Names of All Presidents", () => {  
   it("should take 1 argument (presidents)", () => {
     expect(typeof getNames).toEqual("function");
     expect(getNames.length).toEqual(1);
@@ -55,8 +55,8 @@ describe("Function getNames()", () => {
 });
 
 
-// Iteration 2 | getDemocraticPresidents()
-describe("Function getDemocraticPresidents()", () => {  
+// Iteration 2
+describe("Iteration 2 | Democratic Presidents", () => {  
   it("should take 1 argument (presidents)", () => {
     expect(typeof getDemocraticPresidents).toEqual("function");
     expect(getDemocraticPresidents.length).toEqual(1);
@@ -108,8 +108,8 @@ describe("Function getDemocraticPresidents()", () => {
 });
 
 
-// Iteration 3 | countYearsInOffice()
-describe("Function countYearsInOffice()", () => {
+// Iteration 3
+describe("Iteration 3 | Count Years in Office", () => {
   it("should take 1 argument (presidents)", () => {
     expect(typeof countYearsInOffice).toEqual("function");
     expect(countYearsInOffice.length).toEqual(1);
@@ -169,8 +169,8 @@ describe("Function countYearsInOffice()", () => {
 });
 
 
-// Iteration 4: Sort Presidents by Birth Year - `sort()`
-describe("Function sortPresidentsByBirthYear()", () => {
+// Iteration 4
+describe("Iteration 4 | Sort Presidents by Birth Year", () => {
   it("should take 1 argument (presidents)", () => {
     expect(typeof sortPresidentsByBirthYear).toEqual("function");
     expect(sortPresidentsByBirthYear.length).toEqual(1);

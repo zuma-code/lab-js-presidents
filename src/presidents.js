@@ -418,76 +418,48 @@ const presidents = [
 
 
 
-// Iteration 1: Names of Presidents - `map()`
+// Iteration 1 | Names of All Presidents - `map()`
 function getNames(presidentsArr) {}
 
-// console.log("getNames(presidents)", getNames(presidents));
 
 
 
-
-// Iteration 2: Name and Party  - `map()`
-function getNamesAndParty(presidentsArr) {}
-
-// console.log("getNamesAndParty(presidents)", getNamesAndParty(presidents));
-
-
-
-
-// Iteration 3: Democratic presidents - `filter()`
+// Iteration 2 | Democratic Presidents - `filter()`
 function getDemocraticPresidents(presidentsArr) {}
 
-// console.log("getDemocraticPresidents(presidents)", getDemocraticPresidents(presidents));
 
 
 
-
-// Iteration 4: Affiliated Presidents - `filter()`
-function getAffiliatedPresidents(presidentsArr) {}
-
-// console.log("getAffiliatedPresidents(presidents)", getAffiliatedPresidents(presidents));
-
-
-
-
-// Iteration 5: Count Years in Office - `reduce()`
+// Iteration 3 | Count Years in Office - reduce()
 function  countYearsInOffice(presidentsArr) {}
 
-// console.log("countYearsInOffice(presidents)", countYearsInOffice(presidents));
 
 
 
-
-// Iteration 6: Count Republican Presidents - `reduce()`
-function countRepublicanPresidents(presidentsArr) {}
-
-// console.log("countRepublicanPresidents(presidents)", countRepublicanPresidents(presidents));
-
-
-
-
-// Iteration 7: Sort Presidents by Birth Year - `sort()`
+// Iteration 4 | Sort Presidents by Birth Year - `sort()`
 function sortPresidentsByBirthYear(presidentsArr) {}
 
 
 
 
-// BONUS: Iteration 8 | Age At Inauguration - `map()`
+// Bonus: Iteration 5 | Age at Inauguration - `map()`
 function getAgeAtInauguration(presidentsArr) {}
 
-// console.log("ageAtInauguration(presidents)", ageAtInauguration(presidents));
 
 
 
-
-// BONUS: Iteration 9 | Presidents Born After - `filter()`
+// Bonus: Iteration 6 | Presidents Born After - `filter()`
 function getPresidentsBornAfter(presidentsArr, year) {}
 
-// console.log("getPresidentsBornAfter(presidents)", getPresidentsBornAfter(presidents));
+
+
+
+// Bonus: Iteration 7 | Count Republican Presidents
+function countRepublicanPresidents(presidentsArr) {}
 
 
 
 
-// BONUS: Iteration 10: Sort Presidents by Name - `sort()`
+// Bonus: Iteration 8 | Sort Presidents by Name - `sort()`
 function sortPresidentsByName(presidentsArr) {}
 
