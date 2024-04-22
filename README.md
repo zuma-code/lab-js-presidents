@@ -100,7 +100,7 @@ In case you need a refresher on any of the array methods, you can check the [FAQ
 <br>
 
 
-### Iteration 1: Names of All Presidents - `map()`
+### Iteration 1 | Names of All Presidents - `map()`
 
 We will start our practice of JS array methods by working with the `map()` method.
 
@@ -136,7 +136,7 @@ Make sure to check the test output to verify that the function is working correc
 
 <br>
 
-### Iteration 2:  Democratic Presidents - `filter()`
+### Iteration 2 | Democratic Presidents - `filter()`
 
 Next up, we will practice using the `filter()` method.
 The `filter()` method creates a new array containing the elements for which the callback function returns `true`. In other words, the `filter()` method creates a new array containing only the elements that pass the test implemented by the callback function.
@@ -170,7 +170,7 @@ console.log( getDemocraticPresidents(presidents) );
 
 <br>
 
-### Iteration 3: Count Years in Office - `reduce()`
+### Iteration 3 | Count Years in Office - `reduce()`
 
 Next on our practice menu is the `reduce()` method.
 
@@ -200,7 +200,7 @@ console.log( countYearsInOffice(presidents) );
 <br>
 
 
-### Iteration 4:  Sort Presidents by Birth Year - `sort()`
+### Iteration 4 | Sort Presidents by Birth Year - `sort()`
 
 For the final few mandatory iterations, we will practice using the `sort()` method.
 
@@ -310,7 +310,7 @@ console.log( getPresidentsBornAfter(presidents, 1945) );
 <br>
 
 
-### Iteration 7: Count Republican Presidents - `reduce()`
+### Bonus: Iteration 7 | Count Republican Presidents - `reduce()`
 
 Implement the function `countRepublicanPresidents()` that takes the **presidents array** as an argument. The function should use the `reduce()` method to count the total number of presidents who belonged to the Republican party. The function should then return a number representing the number of Republican presidents.
 
